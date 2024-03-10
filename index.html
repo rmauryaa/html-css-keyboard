@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Keyboard</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        background-color: rgb(74, 177, 210);
+      }
+      .box {
+        margin-top: 170px;
+      }
+      .outer {
+        width: 80%;
+        height: auto;
+        margin: auto;
+        display: grid;
+        align-items: center;
+        background-color: rgb(40, 43, 42);
+        grid-template-columns: repeat(12, 1fr);
+        gap: 20px;
+        padding: 35px;
+        box-sizing: border-box;
+        border-radius: 19px;
+        box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+      }
+      .button {
+        background-color: rgb(45, 53, 56);
+        color: rgb(92, 163, 183);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 49px;
+        border-radius: 7px;
+        box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px,
+          rgba(17, 17, 26, 0.1) 0px 16px 56px,
+          rgba(17, 17, 26, 0.1) 0px 24px 80px;
+      }
+      .outer > div:nth-of-type(35) {
+        grid-column: span 2;
+      }
+      .outer > div:nth-of-type(46) {
+        grid-column: span 2;
+      }
+      .outer > div:nth-of-type(51) {
+        grid-column: span 4;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <div class="outer">
+        <div class="button">~</div>
+        <div class="button">1</div>
+        <div class="button">2</div>
+        <div class="button">3</div>
+        <div class="button">4</div>
+        <div class="button">5</div>
+        <div class="button">6</div>
+        <div class="button">7</div>
+        <div class="button">8</div>
+        <div class="button">9</div>
+        <div class="button">0</div>
+        <div class="button">Delete</div>
+        <div class="button">tab</div>
+        <div class="button">Q</div>
+        <div class="button">W</div>
+        <div class="button">E</div>
+        <div class="button">R</div>
+        <div class="button">T</div>
+        <div class="button">Y</div>
+        <div class="button">U</div>
+        <div class="button">I</div>
+        <div class="button">O</div>
+        <div class="button">P</div>
+        <div class="button">\</div>
+        <div class="button">caps</div>
+        <div class="button">A</div>
+        <div class="button">S</div>
+        <div class="button">D</div>
+        <div class="button">F</div>
+        <div class="button">G</div>
+        <div class="button">H</div>
+        <div class="button">J</div>
+        <div class="button">K</div>
+        <div class="button">L</div>
+        <div class="button">Enter</div>
+        <div class="button">shift</div>
+        <div class="button">Z</div>
+        <div class="button">X</div>
+        <div class="button">C</div>
+        <div class="button">V</div>
+        <div class="button">B</div>
+        <div class="button">N</div>
+        <div class="button">M</div>
+        <div class="button"><</div>
+        <div class="button">></div>
+        <div class="button">shift</div>
+        <div class="button">&#63743;</div>
+        <div class="button">control</div>
+        <div class="button">option</div>
+        <div class="button">alt</div>
+        <div class="button">space</div>
+        <div class="button">alt</div>
+        <div class="button">option</div>
+        <div class="button"><-</div>
+        <div class="button">-></div>
+      </div>
+    </div>
+  </body>
+</html>
